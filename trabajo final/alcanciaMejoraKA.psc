@@ -1,4 +1,3 @@
-//0)valor base 1)Monedero 2)Alcancia
 funcion imprimirPantalla(prmOpcion Por Referencia)
 	Limpiar Pantalla;
 	Escribir "*********************BIENVENIDO********************";
@@ -146,7 +145,6 @@ Funcion ingresarMoneda(prmNombre,prmDimension,prmNumero Por Referencia)
 		FinSi
 	FinSi
 FinFuncion
-
 Funcion varUbicacion<-validarUbicacion(prmOpcion,prmDimension,prmNumero,prmExiste Por Referencia)
 	Definir varIterador,varUbicacion,varAux Como Entero;varAux=0;
 	para varIterador<-0 hasta prmDimension-1 Con Paso 1 Hacer
@@ -161,7 +159,6 @@ Funcion varUbicacion<-validarUbicacion(prmOpcion,prmDimension,prmNumero,prmExist
 		FinSi
 	FinPara
 FinFuncion
-
 Funcion extraerMoneda(prmNombre,prmDimension,prmNumero)
 	Definir varIterador,varOpcion,varAux Como Entero;varAux=0;
 	Definir existe Como Logico;existe=falso;
@@ -183,7 +180,6 @@ Funcion extraerMoneda(prmNombre,prmDimension,prmNumero)
 			FinSi
 		FinSi
 	FinSi
-
 FinFuncion
 Algoritmo alcancia_main
 	Definir varNombre como texto;
